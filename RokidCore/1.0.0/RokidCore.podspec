@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     
     s.homepage         = 'https://rokid.github.io/mobile-sdk-ios-docs'
     s.author           = { 'chaochao.cheng' => 'chaochao.cheng@rokid.com' }
-    s.source           = { :http => 'http://mobile.rokidcdn.com/ios_sdk/RKCore/1.0.0/core.zip' }
+    s.source           = { :http => 'https://mobile.rokidcdn.com/ios_sdk/RKCore/1.0.0/core.zip' }
     
     s.ios.deployment_target = '9.0'
     s.swift_version   = '5.0'
