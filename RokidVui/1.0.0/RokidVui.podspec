@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   DESC
 
   s.homepage         = 'https://gitlab.rokid-inc.com/mobile/ios/RKVui'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chaochao.cheng' => 'chaochao.cheng@rokid.com' }
   s.source           = { :http => 'https://mobile.rokidcdn.com/ios_sdk/RKVui/1.0.0/vui.zip'}
 
