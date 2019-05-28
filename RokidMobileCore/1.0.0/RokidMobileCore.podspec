@@ -13,15 +13,12 @@ Pod::Spec.new do |s|
     
     s.homepage         = 'https://rokid.github.io/mobile-sdk-ios-docs'
     s.author           = { 'chaochao.cheng' => 'chaochao.cheng@rokid.com' }
-    s.source           = { :http => 'https://mobile.rokidcdn.com/ios_sdk/RKMobileCore/1.0.0/mobileCore.zip' }
+    s.source           = { :http => 'https://mobile.rokidcdn.com/ios_sdk/RokidMobileCore/1.0.0/mobileCore.zip' }
     
     s.ios.deployment_target = '9.0'
     s.swift_version   = '5.0'
 
-     s.dependency 'RokidBase'
-     s.dependency 'RokidNetwork'
-     s.dependency 'RokidLog'
-     s.dependency 'MQTTClient'    
-     s.vendored_frameworks = 'mobileCore/RKMobileCore.framework'
+     s.dependency 'RokidCore'
+     s.vendored_frameworks = 'mobileCore/RokidMobileCore.framework'
         
 end
