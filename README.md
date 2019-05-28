@@ -15,10 +15,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/Rokid/rokid-specs.git'
 ```
 
-- 为工程target添加依赖，例：引入若琪基础库依赖，
+- 为工程target添加依赖，例：引入若琪核心库依赖。
 
 ```
-pod 'RKBase', '~> 1.0.0'
+pod 'RokidMobileCore', '~> 1.0.0'
 ```
 
 ## Links
