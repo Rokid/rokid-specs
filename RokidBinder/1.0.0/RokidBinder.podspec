@@ -16,7 +16,7 @@ Config Rokid device by BLE protocol mainly send WiFi info to Rokid Device.
 
   s.dependency 'RokidBase'
   s.dependency 'RokidLog'
-  s.dependency 'RokidMobileCore'
+  s.dependency 'RokidCore'
   s.vendored_frameworks = 'binder/RKBinder.framework'
 
 end
