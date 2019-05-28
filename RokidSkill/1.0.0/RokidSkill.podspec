@@ -15,7 +15,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.swift_version   = '5.0'
   
-   s.dependency 'RokidMobileCore'
+   s.dependency 'RokidCore'
    s.dependency 'RokidWebApp'
    s.dependency 'RokidRouter'
    s.ios.vendored_frameworks = 'skill/RKSkill.framework','skill/KGMusicSDK.framework'
