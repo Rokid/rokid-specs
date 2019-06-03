@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.dependency 'CocoaAsyncSocket'
     s.dependency 'RokidBase'
     s.dependency 'RokidLog'
-    s.dependency 'RokidMobileCore'
+    s.dependency 'RokidCore'
     s.dependency 'RokidRouter'
     s.vendored_frameworks = 'webApp/RKWebApp.framework'
 
