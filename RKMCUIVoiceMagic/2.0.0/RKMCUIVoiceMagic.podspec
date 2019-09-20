@@ -21,5 +21,6 @@ Pod::Spec.new do |s|
   s.dependency 'RKMCUILogin'
   s.dependency 'RKMCUIDebug'
   s.vendored_frameworks = 'voice/RKMCUIVoiceMagic.framework'
+  s.vendored_libraries = 'voice/libraries/*.{a,dylib}'
 end
 
